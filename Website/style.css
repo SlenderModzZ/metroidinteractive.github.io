@@ -11,7 +11,7 @@ nav {
     display: flex;
     height: 80px;
     width: 100%;
-    background: #1b1b1b;
+    background: #424242;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -35,7 +35,7 @@ nav {
         }
 
             nav ul li a {
-                color: #f2f2f2;
+                color: #fff; /* beim einen zeichen das sind dann die namen */
                 text-decoration: none;
                 font-size: 18px;
                 font-weight: 500;
@@ -48,11 +48,11 @@ nav {
                 nav ul li a.active,
                 nav ul li a:hover {
                     color: #111;
-                    background: #fff;
+                    background: #000000;
                 }
 
     nav .menu-btn i {
-        color: #fff;
+        color: #fff; /* das zeichen mit den drei teilen*/
         font-size: 22px;
         cursor: pointer;
         display: none;
@@ -113,7 +113,7 @@ input[type="checkbox"] {
     nav ul li a.active,
     nav ul li a:hover {
         background: none;
-        color: cyan;
+        color: #3d3d3d; /* wenn man ruber geht */
     }
 }
 
@@ -126,7 +126,7 @@ input[type="checkbox"] {
     z-index: -1;
     width: 100%;
     padding: 0 30px;
-    color: #1b1b1b;
+    color: #fff;
 }
 
     .content div {
